@@ -1,0 +1,23 @@
+.nav-style{
+    color: #777;
+    font-weight: bold;
+}
+.btn.btn-navbar{
+    float: right;
+    margin: 10px 0;
+    background: #777;
+    color: #fff;
+    display: none;
+}
+@media (min-width: 768px) {
+    .nav-collapse.collapse{
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .btn.btn-navbar{
+        display: block;
+    }
+}
+
+
